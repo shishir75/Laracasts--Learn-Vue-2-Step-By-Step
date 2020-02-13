@@ -14,6 +14,9 @@
                 <li v-for="name in names" v-text="name"></li>
             </ul>
 
+            <input type="text" v-model="name">
+            <button @click="addName">Add New</button>
+
         </div>
 
 
@@ -21,9 +24,19 @@
 
         new Vue({
             el: '#app',
+            name: '',
             data: {
                 names: ['Shishir', 'Mamun', 'Obydullah', 'Samima'],
+            },
+
+            methods: {
+                addName() {
+                    this.names.push(this.name);
+
+                    this.name = '';
+                }
             }
+
         })
 
     </script>
