@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn Vue 2: Step By Step (Laracasts)</title>
+
+        <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+
+        <style>
+            .bg-red {
+                background-color: red;
+            }
+
+            .bg-green {
+                background-color: green;
+            }
+
+            .is-loading {
+                color: red;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="app">
+
+            <button :title="title">Attribute Binding</button>
+
+
+            <p :class="bgRed">This is a Class Binding</p>
+
+            <button :class="{ 'is-loading' : isLoading }" @click="toggleClass">Toggle</button>
+
+        </div>
+
+
+    <script>
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                title: 'THis is the title from Vue!',
+                bgRed: 'bg-red',
+
+                isLoading: false,
+            },
+
+            methods: {
+                toggleClass() {
+                    this.isLoading = !this.isLoading;
+                }
+            }
+        })
+
+    </script>
+
+    </body>
+</html>
