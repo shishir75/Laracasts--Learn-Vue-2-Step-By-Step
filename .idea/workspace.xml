@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44b6308-249d-44b6-9f33-bd41dee51ec4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/named-slot.html" beforeDir="false" afterPath="$PROJECT_DIR$/named-slot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/named-slot.js" beforeDir="false" afterPath="$PROJECT_DIR$/named-slot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -75,12 +87,15 @@
       <workItem from="1581684280887" duration="1297000" />
       <workItem from="1581685662552" duration="7253000" />
       <workItem from="1581707671266" duration="146000" />
-      <workItem from="1581707836084" duration="2041000" />
+      <workItem from="1581707836084" duration="3662000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="278" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581685511577">
