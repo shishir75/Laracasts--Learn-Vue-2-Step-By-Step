@@ -27,7 +27,7 @@ Vue.component('model', {
                 
                     <slot name="footer">
                     
-                        <button class="button is-success">Okay (Default)</button> 
+                        <button class="button is-success">Okay ( Default )</button> 
                         
                     </slot>
                     
