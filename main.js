@@ -7,6 +7,32 @@ Vue.component('slot', {
 });
 
 
+// component in component
+Vue.component('task-list', {
+
+    template: `
+        <div>
+            <li v-for="task in tasks">{{ task.description }}</li>
+        </div>
+    
+    `,
+
+    data() {
+        return {
+            tasks: [
+                { description: 'Description 1', complete: true},
+                { description: 'Description 2', complete: true},
+                { description: 'Description 3', complete: false},
+                { description: 'Description 4', complete: false},
+                { description: 'Description 5', complete: true},
+            ],
+        }
+    }
+
+
+});
+
+
 new Vue({
     el: '#app',
 
