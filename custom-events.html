@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn Vue 2: Step By Step (Laracasts)</title>
+
+
+    </head>
+
+    <body>
+
+        <div id="app">
+
+            <h3>Custom Event</h3>
+
+            <coupon @applied="onCouponApplied"></coupon>
+
+            <p v-if="couponApplied">You applied your coupon!</p>
+
+
+        </div>
+
+
+        <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
