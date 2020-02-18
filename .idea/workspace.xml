@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44b6308-249d-44b6-9f33-bd41dee51ec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -80,6 +77,7 @@
       <workItem from="1581707671266" duration="146000" />
       <workItem from="1581707836084" duration="4795000" />
       <workItem from="1582008559615" duration="3090000" />
+      <workItem from="1582034375238" duration="160000" />
     </task>
     <servers />
   </component>
@@ -94,6 +92,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="640" y="278" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581685511577" />
+    <state x="690" y="252" key="FileChooserDialogImpl" timestamp="1582034526712">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="690" y="252" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1582034526712" />
     <state x="345" y="111" key="SettingsEditor" timestamp="1581708061267">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
